@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+section#saiba {
+    height: 100vh;
+    display: flex;
+}
+
+
+section#saiba .esquerda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#saiba .direita {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#text1 {
+    width: 70%;
+}
+
+#text1 h2 {
+    font-size: 40px;
+}
+
+#text1 h2 mark {
+    background: transparent;
+    color: #59039e;
+}
+
+#text1 p {
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+
+.direita img {
+    width: 250px;
+    border-radius: 70%;
+}
